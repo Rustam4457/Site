@@ -1,0 +1,11 @@
+$(document).ready(function(){
+   $('.main-nav-trigger').click(function() {
+     $(this).next('.horizontal-nav').slideToggle(700);
+   });
+   $(window).resize(function () {
+   	if ($(window).width() > 992 ){
+   		$(this).removeAttr('style');
+   	}
+   })
+});
+
