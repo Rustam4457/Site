@@ -1,4 +1,4 @@
 # Site
 Site-card
 
-# If navbar doesnt work try reload page.
+# If something doesn't work(slider, navbar) just wait 10 sec.
