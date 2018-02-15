@@ -58,7 +58,6 @@ a {
 @media (max-width: 992px ){
   .stn-numbers{
     flex-direction: column;
-
   }
   .sprite {
     display: inline-flex;
@@ -66,13 +65,10 @@ a {
     align-items: stretch;
     flex: 1 1 auto;
     flex-direction: column;
-
   }
-  
-    .darken {
-     max-width: 115%;
-    }
-  
+  .contact-info {
+  margin-bottom: 90px;
+}
 }
 @media (max-width: 1192px ){
 .sprite {
@@ -85,17 +81,28 @@ a {
     margin: 10px;
     line-height: 1;
   }
-
 }
-
   .signature {
     margin-left: 27em;
   }
 
 }
-@media (max-width:  760px ) {
-  max-width: 110%;
-
-  margin-left: -155px;
+@media (max-width:  768px ) {
+#projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 320px;
+}
+.darken {
+  min-width: 600px;
+}
 }
 
+@media (max-width:  685px ) {
+  .sprite {
+  display: flex;
+  flex-direction: row;
+ margin-bottom: -5px;
+}
+}
