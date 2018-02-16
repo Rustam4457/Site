@@ -243,13 +243,15 @@
     </div>
     <div class="col-md-7">
       <div class="frm-group">
-        <input type="text"  name="name"   placeholder="Name"   class="contact name">
-        <input type="text"  name="email"  placeholder="Email"  class="contact name">
-        <input type="text"  name="name"   placeholder="Title"  class="contact title">
+        <form method="POST" action="assets/js/mail.php">
+        <input type="text"  name="name"  id="name" placeholder="Name"   class="contact name">
+        <input type="text"  name="email" id="email" placeholder="Email"  class="contact name">
+        <input type="text"  name="title" id="title" placeholder="Title"  class="contact title">
          <div class="col-md-12">
          <textarea  name="message"  placeholder="Your Feedback" class="feedback"></textarea>
         </div>
-        <button type="submit" class="send">Send Message</button>
+        <button type="submit" name="message" id="message" class="send">Send Message</button>
+        </form>
       </div>
     </div>
   </div> 
@@ -269,6 +271,7 @@
 </div>
 
 <!-- End-Footer   -->
+
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/lightslider.js"></script>
 <script src="assets/js/functions.js"></script>
