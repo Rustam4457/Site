@@ -93,5 +93,10 @@ $(document).ready(function(){
 	function formValida(){
 		var str = $('#contact_form input[name=email]').val();
 		str = Jquery.trim(str);
+		  if(str.length < 15){                
+            alert ('Enter your email');          
+            return false;
+        }   
+        return true;
 	}
 })
