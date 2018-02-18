@@ -131,26 +131,20 @@ $(function() {
  
 // =========================================================================  go_order
 $(function() {
-    //фкнкция вызова формы обратной связи
+
     $('#contact').click(function(){
-        //появление окна обратной связи
         $('#popup').fadeIn();
-        //добавляем к окну иконку закрытия
         $('#popup').append('<a id="popup_close"></a>');
-        //расчитываем высоту и ширину всплывающего окна что бы вывести окно прямо по центру экрана
         q_width = $('#popup').outerWidth()/-2;
         q_height = $('#popup').outerHeight()/-2;
         $('#popup').css({
             'margin-left': q_width,
             'margin-top': q_height
-        });
-        //выводим затемение страницы и делаем полупрозрачным
+        });     
         $('body').append('<div id="fade"></div>');
         $('#fade').css({'filter' : 'alpha(opacity=40)'}).fadeIn();
         return false;
     });
-     
-    //функция закрытия окна
     $('#popup_close, #fade').live('click', function() {
         $('#fade').fadeOut(function() {
             $('#fade').remove();
