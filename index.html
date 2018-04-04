@@ -7,9 +7,13 @@
   <title>Title</title>
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
-<link rel="stylesheet" href="assets/css/lightslider.css">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
 </head>
 <body>
 
@@ -19,15 +23,15 @@
     <div class="container">
       <a href="#!">
       <img src="assets/img/logo.png" width="100" class="main-logo" alt="logo">
-     <img src="assets/img/logo.svg" width="100" class="main-logo-black" alt="logo">
+     <img src="assets/img/logo.svg"  width="100" class="main-logo-black" alt="logo">
       </a>
       <span class="main-nav-trigger">&#9776;</span>
       <ul class="horizontal-nav ">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Works</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -36,16 +40,7 @@
       <h2>We are about to change the way</h2>
       <h1 class="title-2">I’m looking for the unexpected</h1>
       <h1 class="title-1">I’m looking for things I’ve never seen before.</h1>
-      <button type="submit" id="contact">Contact</button>
-      <div id="popup">
-    <form id="contact_form" role="form" method="post" action="assets/js/order.php">
-        <h2>Contact</h2>
-        <input type="text" name="name"  placeholder="Name">
-        <input type="text" name="email" class="required" placeholder="Email">
-        <input type="text" name="title" placeholder="Title">
-        <textarea name="message" placeholder="Your message" rows="5"></textarea>
-        <a href="#" class="btn button form_submit">Submit</a>
-    </form>
+      <button type="submit">Contact</button>
 </div>
 </div>
 </div>
@@ -185,7 +180,7 @@
 </div>
 <!--Second-Slider-->
 <div class="container">
-	<div class="blog-info">
+	<div class="blog-info" id="blog">
 
   <h1>Latest Blog</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas tempore <br> repellat doloribus beatae minima, ad soluta deleniti dolorum iste, praesentium modi accusantium iure voluptates?</p>
@@ -238,7 +233,7 @@
  <!---Slider-Ends-->
 
 <!--Footer-->
-<div class="stn-contact">
+<div class="stn-contact" id="contact">
   <div class="container">
     <div class="info-address">
       <h1>Contact Info:</h1>

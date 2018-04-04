@@ -70,6 +70,12 @@ a {
   margin-bottom: 90px;
 }
 }
+.hero-heading {
+// position: relative;
+// right: 15%;
+// display: inline-flex;
+// flex-wrap: wrap;
+}
 @media (max-width: 1192px ){
 .sprite {
   display: flex;
@@ -89,20 +95,29 @@ a {
 }
 @media (max-width:  768px ) {
 #projects {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  display: inline-flex;
+  flex-direction: row;
+  align-content: stretch;
+  align-self: flex-start;
+  align-items: stretch;
   height: 320px;
 }
 .darken {
   min-width: 600px;
 }
 }
+.hero-heading {
+ display: block;
+ float: left;
+ max-width: 760px;
 
-@media (max-width:  685px ) {
+}
+
+@media (max-width:  675px ) {
   .sprite {
   display: flex;
   flex-direction: row;
  margin-bottom: -5px;
 }
+
 }
