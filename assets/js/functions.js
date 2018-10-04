@@ -89,5 +89,15 @@ $(document).ready(function() {
     });
 });
 
-//popup
 
+
+$(document).ready(function(){
+$('textarea').attr('maxlength', '100');
+var max_length = $('textarea').attr('maxlength');
+$('#feedbacki').text(max_length+" characters are remaining");
+$('textarea').keyup(function(){
+  var length = $(this).val().length;
+  var remaining_chars = max_length-length;
+  $('#feedbacki').text(remaining_chars + " characters are remaining");
+});
+});
