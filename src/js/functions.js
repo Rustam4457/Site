@@ -65,7 +65,8 @@ $(document).ready(function() {
     $("#lightSlider").lightSlider({
       item: 1,
       loop: true,
-      speed: 500
+      speed: 500,
+      controls: false
           }); 
   });
 
@@ -75,7 +76,8 @@ $(document).ready(function() {
         item: 5,
          loop: true,
          speed: 700,
-         pager: false
+         pager: false,
+         controls: false
     });
 });
   //blog-slider

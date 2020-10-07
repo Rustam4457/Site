@@ -17,19 +17,32 @@
     "url": "https://github.com/Rustam4457/Site/issues"
   },
   "homepage": "https://github.com/Rustam4457/Site#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-image": "^4.4.1",
-    "gulp-less": "^4.0.1",
-    "gulp-notify": "^3.2.0",
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "css-loader": "^4.3.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-rigger": "^0.5.8",
-    "gulp-sourcemaps": "^2.6.4",
-    "imagemin-gifsicle": "^6.0.1",
-    "imagemin-svgo": "^7.0.0"
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgmin": "^3.0.0",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "normalize.css": "^8.0.1",
+    "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.5.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rm": "^2.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgo": "^2.2.1",
+    "node-sass": "^4.14.1"
   }
 }

@@ -1,6 +1,6 @@
 .site-header {
-.bg-img('hero-img.jpg');
-background-attachment: fixed;
+@include bg-img('hero-img.jpg');
+background-attachment: fixed; 
 height: 810px;
 }
 .site-nav {
@@ -9,13 +9,13 @@ width: 100%;
 position: fixed;
 z-index: 9999;
   ul {
-    &:extend(.ul-unstyled);
+    @include  ul-unstyled;
     float: right;
     li {
       display: inline-block;
       margin-left: 15px;
       a {
-        .transition();
+        @include  transition();
         display: block;
         color: black !important;
         line-height: 1.65;
@@ -115,7 +115,7 @@ h1{
 .stn-numbers {
 padding-top: 65px;
 padding-left: 95px;
-background: @bg-black;
+background: $bg-black;
 // height: 230px;
 width: 100%;
 color: #bbbbbb;
@@ -196,39 +196,38 @@ user-select: none;
   
 ///pictures thumbs-row
   .thumb-1 {
-  .bg-img-small('portfolio-2-sm.jpg');    
+  @include bg-img-small("portfolio-2-sm.jpg");    
 }
   .thumb-2 {
-  .bg-img-small('portfolio-3-sm.jpg');
+  @include bg-img-small('portfolio-3-sm.jpg');
       
 }
  .thumb-3 {
-  .bg-img-small('portfolio-4-sm.jpg');
+  @include bg-img-small('portfolio-4-sm.jpg');
       
 }
  .thumb-4 {
-  .bg-img-small('portfolio-5-sm.jpg');
+  @include bg-img-small('portfolio-5-sm.jpg');
       
 }
  .thumb-5 {
-  .bg-img-small('portfolio-6-sm.jpg');
+  @include bg-img-small('portfolio-6-sm.jpg');
    
 }
  .thumb-6 {
-  .bg-img-small('portfolio-7-sm.jpg');
+  @include bg-img-small('portfolio-7-sm.jpg');
    
 }
  .thumb-7 {
-  .bg-img-small('portfolio-8-sm.jpg');
+  @include bg-img-small('portfolio-8-sm.jpg');
    
 }
  .thumb-8 {
-  .bg-img-small('portfolio-9-sm.jpg');
+  @include bg-img-small('portfolio-9-sm.jpg');
       
 }
  .thumb-9 {
-  .bg-img-small('portfolio-12-sm.jpg');
-      
+  @include bg-img-small('portfolio-12-sm.jpg');     
 }
 
 
@@ -309,7 +308,7 @@ cite {
   padding: 5px;
  }
  .slider-item {
-    .transition();
+  @include transition();
  }
  .desc{
   font-size: 17px;

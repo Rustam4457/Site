@@ -1,0 +1,85 @@
+@mixin min-max($min-width, $max-width, $padding) {
+  min-width: $min-width;
+  max-width: $max-width;
+  padding: 0 $padding;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+//use http://www.font2web.com to generate all font formats
+@mixin add-font($font-url, $font-name, $weight: normal, $style: normal) {
+  font-family: $font-name;
+  src: url('${font-folder}${font-url}.eot'); // IE9 Compat Modes 
+  src: url('${font-folder}${font-url}.eot?#iefix') format('embedded-opentype'), 
+  url('${font-folder}${font-url}.woff') format('woff'), // Pretty Modern Browsers 
+  url('${font-folder}${font-url}.ttf') format('truetype'), // Safari, Android, iOS 
+  url('${font-folder}${font-url}.svg#${font-name}') format('svg'); // Legacy iOS  
+  font-weight: $weight;
+  font-style: $style;
+}
+@mixin btn($bg: black, $fs: 9px, $lh: 13px, $ls: 0.54px, $br: 40px, $w: 114px, $clr: white) {
+  width: $w;
+  color: $clr;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  background-color: $bg;
+  border-radius: $br;
+  padding: 13px 0;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 25px 0;
+  text-decoration: none;
+
+  &:hover {
+    background-color: lighten($bg, 15%);
+  }
+
+}
+@mixin  transition($prop: all, $time: 0.5s, $ease: ease-in-out) {
+  transition: $prop $time $ease;
+}      
+@mixin  bg-img($img, $pos:center center, $att:scroll) {
+  background-image: url('#{$img-folder}/#{$img}');
+  background-position: $pos;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: $att;
+}
+
+@mixin  bg-img-small($img, $pos:center center, $att:scroll) {
+  // background-image: url('${img-folder}${img}');
+  background-image: url('#{$img-folder}/#{$img}');
+  background-position: $pos;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: $att;
+}
+
+@mixin overlay ($opacity: 50%){
+  position: relative;
+  z-index: 1;
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: fade($overlay, $opacity);
+    z-index: -1;
+  }
+}
+
+@mixin container{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@mixin ul-unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
