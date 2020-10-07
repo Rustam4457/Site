@@ -10,7 +10,7 @@ const concat = require('gulp-concat');
 const rigger = require('gulp-rigger');
 const image = require('gulp-image');
 
-
+v
 
 gulp.task('serve', () =>{
     browserSync.init({
