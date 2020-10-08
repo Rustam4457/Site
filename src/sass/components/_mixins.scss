@@ -48,12 +48,13 @@
 }
 
 @mixin  bg-img-small($img, $pos:center center, $att:scroll) {
-  // background-image: url('${img-folder}${img}');
   background-image: url('#{$img-folder}/#{$img}');
   background-position: $pos;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: $att;
+  // width: 350px;
+  height: 350px;
 }
 
 @mixin overlay ($opacity: 50%){
@@ -71,12 +72,12 @@
   }
 }
 
-@mixin container{
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+// @mixin container{
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
 
 @mixin ul-unstyled {
   margin: 0;
