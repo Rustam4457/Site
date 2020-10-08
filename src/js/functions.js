@@ -11,15 +11,14 @@ $(document).ready(function(){
 $(document).ready(function() {
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll > 50) {
-      $(".site-nav").css("background", "white");
+    if (scroll > 150) {
+      $(".menu__header").css("background", "white");
       $("a").css("color", "black");
       $(".main-nav-trigger").css("color", "#252525")
       $(".main-logo-black").css("src", "../img/logo.svg");
+      // $(".main-logo-black").css("padding-top", "25px");
     } else {
-      $(".site-nav").css("background", "");
-      $("a").css("color", "#bababa");
-      $("a").css("font-family", "Work Sans");
+      $(".menu__header").css("background", "");
     };
   });
 });

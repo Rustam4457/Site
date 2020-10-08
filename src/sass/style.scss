@@ -1,20 +1,15 @@
-  
-@charset "UTF-8";           
-                    
-      
-@import "components/mixins";
-
+@charset "UTF-8";            
+                                          
+                   
+@import "components/mixins";  
 @import "components/variables";
- 
-      
-         
 @import "components/help-classes";
-
 @import "components/fonts";
 @import "components/icons";     
-     
 @import "components/interface";
- 
 @import "components/base";  
+@import "components/reset";  
 
-@import "pages/index";           
+
+@import "pages/index";
+@import "pages/header";   
