@@ -17,14 +17,7 @@
   .main-nav-trigger {
     display: block ;
   }
-  .main-logo {
-    float: left;
-  
-  }
-.site-nav {
-  position: relative;
-}
-.site-nav .horizontal-nav {
+.menu__header .horizontal-nav {
 display: none;
 position: absolute;
 top: 100%;
@@ -91,9 +84,9 @@ padding-bottom: 12px;
 }
 }
 .hero-heading {
- display: block;
- float: left;
- max-width: 760px;
+//  display: block;
+//  float: left;
+//  max-width: 760px;
 
 }
 

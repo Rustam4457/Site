@@ -11,12 +11,12 @@ $(document).ready(function(){
 $(document).ready(function() {
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll > 150) {
+    if (scroll > 25) {
       $(".menu__header").css("background", "white");
       $("a").css("color", "black");
       $(".main-nav-trigger").css("color", "#252525")
       $(".main-logo-black").css("src", "../img/logo.svg");
-      // $(".main-logo-black").css("padding-top", "25px");
+
     } else {
       $(".menu__header").css("background", "");
     };
