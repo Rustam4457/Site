@@ -84,10 +84,16 @@
       transition: 0.5s;
     }
     }
-    
+     
     } 
     @media(max-width: 555px){
       .hero-heading{
         font-size: 12px;
       }
+    }
+    @media(max-width: 995px){
+      .site__header .menu__header .main-logo-black{
+        top: -14px;
+      }
+   
     }
