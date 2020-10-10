@@ -8,11 +8,8 @@
 //use http://www.font2web.com to generate all font formats
 @mixin add-font($font-url, $font-name, $weight: normal, $style: normal) {
   font-family: $font-name;
-  src: url('${font-folder}${font-url}.eot'); // IE9 Compat Modes 
-  src: url('${font-folder}${font-url}.eot?#iefix') format('embedded-opentype'), 
-  url('${font-folder}${font-url}.woff') format('woff'), // Pretty Modern Browsers 
-  url('${font-folder}${font-url}.ttf') format('truetype'), // Safari, Android, iOS 
-  url('${font-folder}${font-url}.svg#${font-name}') format('svg'); // Legacy iOS  
+  src: url('#{$font-folder}/#{$font-url}.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-folder}/#{$font-url}.ttf') format('truetype'); 
   font-weight: $weight;
   font-style: $style;
 }

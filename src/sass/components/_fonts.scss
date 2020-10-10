@@ -8,14 +8,14 @@
 // @font-face {
 // 	.add-font('WorkSansRegular/WorkSans-Regular', 'Work Sans', 400);
 // }
-
-
-// @font-face {
-// 	.add-font('Playfair_Display/PlayfairDisplay-Bold', 'Playfair Display', 600);
-// }
-// @font-face {
-// 	.add-font('Playfair_Display/PlayfairDisplay-Italic', 'Playfair Display', 400);
-// }
-// @font-face {
-// 	.add-font('Playfair_Display/PlayfairDisplay-Regular', 'Playfair Display', 400);
-// }
+  
+  
+@font-face {
+	@include add-font('Playfair_Display/PlayfairDisplay-Bold', 'Playfair Display', 600);
+}
+@font-face {
+	@include add-font('Playfair_Display/PlayfairDisplay-Italic', 'Playfair Display', 400);
+}
+@font-face {
+	@include add-font('Playfair_Display/PlayfairDisplay-Regular', 'Playfair Display', 400);
+}
