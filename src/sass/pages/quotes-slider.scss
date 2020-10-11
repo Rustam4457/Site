@@ -1,0 +1,30 @@
+.quotes__slider {
+    overflow: hidden;
+    margin-top: 45px;
+    background: #252525;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  blockquote {
+    color: #fff;
+    font-size: 25px;
+    border-left: none;
+    padding-top: 85px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: 450;
+    position: relative;
+    bottom: 25px;
+  }
+  cite {
+    font-family: "Work Sans";
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+  }
+}
+  
+@media (max-width: 950px){
+  .quotes__slider cite {
+    top: 0px;
+  }
+}
