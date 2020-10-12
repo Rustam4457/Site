@@ -1,0 +1,63 @@
+.stn-contact{
+    background-color: #ebebeb;
+}
+.info-address{
+  font-size: 28px;
+  margin-top: 75px;
+  h1{
+  font-family: 'Playfair Display';
+  font-weight: 550;  
+}
+ strong {
+//   padding-right: 5px;
+}
+.contact-info {
+    font-size: 20px;
+    li{
+        padding-top: 15px;
+    }
+
+}
+
+}
+.frm-group{
+    margin-top: 75px;
+  input {
+    width: 216px;
+    height: 54px;
+    margin-bottom: 15px;
+    color: #000000;
+    padding: 25px;
+    border-style: none;
+   }
+   .contact__name{
+       padding-right: 25px;
+   }
+   .title{
+    width: 437px;
+   }
+   textarea {
+       width: 437px;
+       padding: 25px;
+       height: 230px;
+       border-style: none;
+       &:hover{
+        border: none;
+       }
+   }
+   .send {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #fff;
+    border-style: none;
+  }
+
+}

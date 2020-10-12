@@ -220,38 +220,42 @@
 
 
 <!--Footer-->
- <div class="stn-contact" id="contact">
-   <div class="container">
+<div class="container">
+ <div class="stn-contact mt-5" id="contact">
+  <div class="wrap">
      <div class="row">
-       <div class="col-md-5  mt-5  col-sm-12 col-xs-12">
+       <div class="col-md-5 col-sm-12 col-xs-12">
          <div class="info-address">
             <h1>Контактная информация:</h1>
             <br>
-              <p>Свяжитесь с нами и получите быстрый ответ</p>
-         <ul class="contact-info">
-           <li><strong>Адресс:</strong> ул. Маршала Тимошенко, 13</li>
-           <li><strong>Телефон:</strong><a href="tel:1-847-555-5555">1-847-555-5555</a></li>
-           <li><strong>Почта:</strong> <a href="email:JohnDoe@gmail.com">Denis@gmail.com</a> </li>
+              <p>Свяжитесь с нами и получите быстрый ответ:</p>
+          <ul class="contact-info">
+           <li><strong>Адресс:</strong> ул. Doe John, 13</li>
+           <li><strong>Телефон:</strong>
+            <a href="tel:1-847-555-5555">1-847-555-5555</a></li>
+           <li><strong>Почта:</strong>
+             <a href="mailto:example@gmail.com">Example@gmail.com</a>
+          </li>
          </ul>
        </div>
-     </div>
-     </div>
-     <div class="mt-5 col-md-5 col-sm-12 col-xs-12">
+     </div>  
+     <div class="col-md-5 col-sm-12 col-xs-12">
         <div class="frm-group">
-            <form  method="№">
-            <input type="text"  name="name"  id="name" placeholder="Имя"   tabindex="1"  class="contact name">
-            <input type="email"  name="email" id="email" placeholder="Почтовый Адресс" tabindex="2"   class="contact email">
-            <input type="text"  name="title" id="title" placeholder="Заголовок"  tabindex="3"  class="contact title">
-             <textarea  name="feedback" id="feedback1"  placeholder="Ваш Отзыв" class="feedback"></textarea>
+            <form>
+            <input type="text"  name="name"  id="name" placeholder="Ваше Имя" class="contact__name">
+            <input type="email"  name="email" id="email" placeholder="Ваша Почта" class="contact__email">
+            <input type="text"  name="title" id="title" placeholder="Тема Письма" class="contact title">
+             <textarea  name="feedback" id="feedback1"  placeholder="Ваше Сообщение" class="feedback"></textarea>
              <br>
-                     <span id="feedbacki" style="color: #000000"></span>
-            <button type="submit" class="send">Отправить Сообщение</button>
+            <span id="feedbacki" style="color: #000000"></span> <button type="submit" class="send">Отправить Сообщение</button>
             </form>
-      </div>
+       </div>
+     </div>
     </div>
+   </div>
   </div>
 </div>
-<div class="stn-footer">
+<footer class="stn-footer">
   <div class="container">
     <div class="icons col-md-offset-5">
      <a href="#!"><i class="fa fa-twitter  fa-lg" aria-hidden="true"></i></a>
@@ -263,12 +267,10 @@
         <p> 2016-2017 &#64; Design by Unvab. Code by <a href="https://github.com/heneros">Heneros</p>
     </div>
   </div>
-</div>
-
+</footer>
 <!-- End-Footer   -->
-
-</body>
-<script src="js/jquery-3.3.1.min.js"></script>
+</body> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/lightslider.js"></script>
 <script src="js/functions.js"></script>
 </html>

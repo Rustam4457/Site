@@ -37,21 +37,9 @@ $(document).ready(function() {
  });
 });
 
-///Change clasess in navbar. Doesn't works yet...
-// $(window).on('scroll', function() {
-//     var $nav = $('header'),
-//         scroll = $(this).scrollTop();
-//     if (scroll > 10) {
-//         $nav.addClass('styles');
-//     } else {
-//         $nav.removeClass('styles');
-//     }
-// });
-
-
 ///smooth transition to anchor links
  $(document).ready(function(){
-    $("ul").on("click","a", function (event) {
+    $(".horizontal-nav").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
