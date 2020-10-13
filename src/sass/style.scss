@@ -1,5 +1,5 @@
 @charset "UTF-8";               
-                                                                                                                                                                      
+                                                                                                                                                                          
 @import "components/mixins";  
 @import "components/variables";
 @import "components/help-classes";
@@ -8,13 +8,14 @@
 @import "components/interface";          
 @import "components/base";  
 @import "components/reset";  
-  
-@import "pages/index";           
-@import "pages/header";     
+          
+                                                    
+@import "pages/header";      
 @import "pages/about-us";     
 @import "pages/stn-numbers";      
 @import "pages/stn-portfolio";       
 @import "pages/thumbs-row";            
 @import "pages/quotes-slider";    
 @import "pages/blog-slider"; 
-@import "pages/contacts";                                           
+@import "pages/contacts";                  
+@import "pages/stn-footer";                     

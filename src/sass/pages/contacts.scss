@@ -32,8 +32,8 @@
    }
    .contact__name{
        padding-right: 25px;
-   }
-   .title{
+   }  
+   .contact__title{
     width: 437px;
    }
    textarea {
@@ -60,4 +60,18 @@
     border-style: none;
   }
 
+}
+@media(max-width: 550px){
+  .frm-group{
+    .contact__title{
+      width: 216px;
+    }
+    textarea{
+      width: 350px;
+    }
+  }
+  .main-nav-trigger {
+    float: none;
+    text-align: center;
+  }
 }
