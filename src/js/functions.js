@@ -1,8 +1,9 @@
-//responsive menu on phone
+   
+//responsive menu on phone 
 $(document).ready(function(){
   $('.main-nav-trigger').click(function(){
     $(this).next('.horizontal-nav').slideToggle()
-  });
+  })
 });
 
 
@@ -16,14 +17,13 @@ $(document).ready(function() {
       $("a").css("color", "black");
       $(".main-nav-trigger").css("color", "#252525")
       $(".main-logo-black").css("src", "../img/logo.svg");
-
     } else {
       $(".menu__header").css("background", "");
     };
   });
 });
 
-//Change logo in navbar
+//Change logo in navbar    
 $(document).ready(function() {
   var img = $(".main-logo-black"); 
   img.css("display", "none"); 

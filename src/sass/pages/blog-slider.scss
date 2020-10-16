@@ -74,6 +74,10 @@
         left: 0;
         width: 250px;
       }
+      .excursions{
+
+      }
+    
       .desc{
         display: flex;
         flex-direction: column;
@@ -96,8 +100,8 @@
         width: auto;
       }
       .excursions{
-        left: -45% !important;
-        top: -17px;
+        // left: -45% !important;
+        // top: -17px;
       }
     }
   }
