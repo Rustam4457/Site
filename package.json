@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Rustam4457/Site#readme",
   "dependencies": {
     "browser-sync": "^2.26.12",
+    "clean-css": "^4.2.3",
     "css-loader": "^4.3.0",
     "del": "^5.1.0",
     "font-awesome": "^4.7.0",
@@ -36,6 +37,7 @@
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-pngquant": "^9.0.1",
     "jquery": "^3.5.1",
+    "lodash.template": "^4.5.0",
     "normalize.css": "^8.0.1",
     "run-sequence": "^2.2.1"
   },
