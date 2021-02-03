@@ -38,14 +38,14 @@ $(document).ready(function() {
 });
 
 ///smooth transition to anchor links
-//  $(document).ready(function(){
-//     $(".horizontal-nav").on("click","a", function (event) {
-//         event.preventDefault();
-//         var id  = $(this).attr('href'),
-//             top = $(id).offset().top;
-//         $('body,html').animate({scrollTop: top}, 500);
-//     });
-// });
+ $(document).ready(function(){
+    $(".horizontal-nav").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 500);
+    });
+});
 
 //Slider
   $(document).ready(function() {
