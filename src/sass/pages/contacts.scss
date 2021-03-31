@@ -23,8 +23,8 @@
 .frm-group{
     margin-top: 75px;
   input {
-    width: 216px;
-    height: 54px;
+    width: -webkit-fill-available;
+        height: 54px;
     margin-bottom: 15px;
     color: #000000;
     padding: 25px;
@@ -34,10 +34,10 @@
        padding-right: 25px;
    }  
    .contact__title{
-    width: 437px;
+    width: -webkit-fill-available;
    }
    textarea {
-       width: 437px;
+    width: -webkit-fill-available;
        padding: 25px;
        height: 230px;
        border-style: none;
@@ -51,7 +51,7 @@
     margin-bottom: 100px;
     width: 150px;
     height: 50px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -64,10 +64,10 @@
 @media(max-width: 550px){
   .frm-group{
     .contact__title{
-      width: 216px;
+      width: -webkit-fill-available;
     }
     textarea{
-      width: 350px;
+      width: -webkit-fill-available;
     }
   }
   .main-nav-trigger {

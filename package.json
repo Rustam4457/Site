@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Rustam4457/Site#readme",
   "dependencies": {
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.26.14",
     "clean-css": "^4.2.3",
     "css-loader": "^4.3.0",
     "del": "^5.1.0",

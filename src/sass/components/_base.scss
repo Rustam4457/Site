@@ -25,9 +25,14 @@ p {
   margin-top: 0; 
   margin-bottom: 25px;
 }
-.container {
-	@include min-max(320px, 100%, 0);
-  }
+// .container {
+// 	@include min-max(320px, 100%, 0);
+//   }
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}  
   
   .wrap {   
 	@include min-max(177px, 1210px, 0);

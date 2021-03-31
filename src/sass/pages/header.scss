@@ -7,7 +7,7 @@
         position: fixed;
         width: -webkit-fill-available;        
         margin: 0 auto;
-        padding-top: 27px;
+        // padding-top: 27px;
         z-index: 99999;
         
           ul {
@@ -27,16 +27,15 @@
                }
             }
           }
-          .main-logo-black{
-            position: relative;
-            left: 7%;
-            top: 53px;
-          }
+ 
        }
-    }
-
-
-    
+    } 
+            .main-logo-black{
+              width: 110px;
+              position: absolute;
+              bottom: 17px;
+              left: 22px;
+          }
     .hero-heading{
     text-align: center;   
     // position: relative;
@@ -93,7 +92,12 @@
     }
     @media(max-width: 995px){
       .site__header .menu__header .main-logo-black{
-        top: -14px;
+
       }
    
+    }
+    @media (max-width: 992px){
+      .main-logo-black{
+        bottom: 0;
+      }
     }
