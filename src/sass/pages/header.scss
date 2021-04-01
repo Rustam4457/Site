@@ -125,7 +125,7 @@
       .blog-slider img{
         width: 200px;
         margin: 0 45px;
-      }
+      } 
       .slider-item .btn__slider{
         width: 150px  !important;
       }
@@ -142,4 +142,13 @@
       .stn-portfolio h1{
         margin-left: unset !important;
       }
+      .blog-slider .desc{
+        // padding: 4% 34%;
+        padding: unset;
+      }
+      .lSSlideOuter .lSPager, .lSSlideOuter .lightSlider{
+        // height: 521px !important;
+      }
+      
+    
     }
