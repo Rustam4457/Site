@@ -2,4 +2,4 @@
 https://heneros.github.io/Site/build
 
 
-Jquery, Bootstrap 3, Slick slider and font-awesome.
+JQuery, Bootstrap 3, Slick slider and font-awesome.
